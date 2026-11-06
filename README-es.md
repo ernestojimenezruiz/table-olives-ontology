@@ -1,8 +1,10 @@
 # Ontología de aceitunas de mesa
 
+Documentation in [English](https://github.com/ernestojimenezruiz/table-olives-ontology).
+
 Guía breve de la ontología de aceitunas de mesa (versión 0.6). Según su cabecera, se creó siguiendo la **Norma del Codex para las Aceitunas de Mesa, CODEX STAN 66-1981**. El modelo abarca tipos de aceituna, elaboraciones comerciales, presentaciones, conservación, calidad del producto y trazabilidad. Los nombres de las entidades se muestran sin enlaces a páginas web.
 
-Documentation in [English](https://github.com/ernestojimenezruiz/table-olives-ontology).
+Ontology: [ttl version ](table-olives-ontology-es-en_v0.6.ttl)
 
 ## De un vistazo
 
