@@ -2,6 +2,8 @@
 
 Guía breve de la ontología de aceitunas de mesa (versión 0.6). Según su cabecera, se creó siguiendo la **Norma del Codex para las Aceitunas de Mesa, CODEX STAN 66-1981**. El modelo abarca tipos de aceituna, elaboraciones comerciales, presentaciones, conservación, calidad del producto y trazabilidad. Los nombres de las entidades se muestran sin enlaces a páginas web.
 
+Documentation in [English](https://github.com/ernestojimenezruiz/table-olives-ontology).
+
 ## De un vistazo
 
 - **Tipos de aceituna:** `Tipo_Aceituna` distingue aceitunas verdes (`Aceituna_Verde`), de color cambiante (`Aceituna_Color_Cambiante`) y negras (`Aceituna_Negra`) según el color y la etapa de maduración en que se recogen. Las variedades, como Arbequina, Gordal y Manzanilla, pertenecen a una rama aparte (`Variedades_Aceituna`).
