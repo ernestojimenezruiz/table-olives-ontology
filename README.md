@@ -4,10 +4,6 @@ Ontología creada siguiendo la Norma del CODEX para las Aceitunas de Mesa (CODEX
 
 A compact guide to the Spanish table-olives ontology (version 0.6). It was created following the **Codex Standard for Table Olives, CODEX STAN 66-1981**. The model covers olive types, commercial preparations, presentation, preservation, product quality and traceability. Spanish names are shown below alongside English explanations; the linked names refer to the ontology's original entity IRIs.
 
-# Table Olives Ontology
-
-A compact guide to the Spanish table-olives ontology (version 0.6). Its ontology header says it was created following the **Codex Standard for Table Olives, CODEX STAN 66-1981**. The model covers olive types, commercial preparations, presentation, preservation, product quality and traceability. Spanish entity names are shown below alongside English explanations.
-
 ## At a glance
 
 - **Olive type:** `Tipo_Aceituna` distinguishes green (`Aceituna_Verde`), changing-colour (`Aceituna_Color_Cambiante`) and black (`Aceituna_Negra`) olives by colour and harvest/maturation stage. Named cultivars, such as Arbequina, Gordal and Manzanilla, sit in a separate varieties branch (`Variedades_Aceituna`).
