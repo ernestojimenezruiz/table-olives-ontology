@@ -1,8 +1,10 @@
 # Table Olives Ontology / Ontología de aceitunas de mesa
 
-Ontología creada siguiendo la Norma del CODEX para las Aceitunas de Mesa (CODEX STAN 66-1981). La ontología contiene anotaciones en español e inglés. Documentación en [README-es.md](español).
+Ontología creada siguiendo la Norma del CODEX para las Aceitunas de Mesa (CODEX STAN 66-1981). La ontología contiene anotaciones en español e inglés. Documentación en [español](README-es.md).
 
 A compact guide to the Spanish table-olives ontology (version 0.6). It was created following the **Codex Standard for Table Olives, CODEX STAN 66-1981**. The model covers olive types, commercial preparations, presentation, preservation, product quality and traceability. Spanish names are shown below alongside English explanations; the linked names refer to the ontology's original entity IRIs.
+
+Ontology: [ttl version ](table-olives-ontology-es-en_v0.6.ttl)
 
 ## At a glance
 
