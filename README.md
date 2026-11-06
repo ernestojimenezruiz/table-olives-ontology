@@ -1,16 +1,20 @@
-# Table Olives Ontology / 
+# Table Olives Ontology / Ontología de aceitunas de mesa
 
-Ontología creada siguiendo la Norma del CODEX para las Aceitunas de Mesa (CODEX STAN 66-1981). La ontología contiene anotaciones en espanol en ingles.
+Ontología creada siguiendo la Norma del CODEX para las Aceitunas de Mesa (CODEX STAN 66-1981). La ontología contiene anotaciones en español e inglés. Documentación en [README-es.md](español).
 
 A compact guide to the Spanish table-olives ontology (version 0.6). It was created following the **Codex Standard for Table Olives, CODEX STAN 66-1981**. The model covers olive types, commercial preparations, presentation, preservation, product quality and traceability. Spanish names are shown below alongside English explanations; the linked names refer to the ontology's original entity IRIs.
 
+# Table Olives Ontology
+
+A compact guide to the Spanish table-olives ontology (version 0.6). Its ontology header says it was created following the **Codex Standard for Table Olives, CODEX STAN 66-1981**. The model covers olive types, commercial preparations, presentation, preservation, product quality and traceability. Spanish entity names are shown below alongside English explanations.
+
 ## At a glance
 
-- **Olive type:** [`Tipo_Aceituna`](http://krono.act.uji.es/people/Ernesto/table-olives/table-olives-ontology.owl#Tipo_Aceituna) distinguishes green (`Aceituna_Verde`), changing-colour (`Aceituna_Color_Cambiante`) and black (`Aceituna_Negra`) olives by colour and harvest/maturation stage. Named cultivars, such as Arbequina, Gordal and Manzanilla, sit in a separate varieties branch (`Variedades_Aceituna`).
-- **Commercial category:** [`Categoria_Producto`](http://krono.act.uji.es/people/Ernesto/table-olives/table-olives-ontology.owl#Categoria_Producto) includes green, changing-colour and black commercial olives, with subclasses for preparations such as natural, lye-treated, split, scored, dry-salted and darkened olives. Here *natural* describes a preparation, not simply the fruit's colour.
-- **Presentation:** [`Presentacion_Aceituna`](http://krono.act.uji.es/people/Ernesto/table-olives/table-olives-ontology.owl#Presentacion_Aceituna) records forms such as whole, pitted, stuffed, halved, quartered and sliced olives. For example, `Aceituna_Entera` has a stone, whereas `Aceituna_Deshuesada` excludes it.
-- **Processing and preservation:** [`Tratamiento`](http://krono.act.uji.es/people/Ernesto/table-olives/table-olives-ontology.owl#Tratamiento) includes alkaline-lye, brine, oxidation and cutting treatments; [`Procesos_Conservacion`](http://krono.act.uji.es/people/Ernesto/table-olives/table-olives-ontology.owl#Procesos_Conservacion) includes brining, fermentation, dry salt, refrigeration and heat preservation.
-- **Quality and products:** [`Producto`](http://krono.act.uji.es/people/Ernesto/table-olives/table-olives-ontology.owl#Producto) is connected to a commercial category, presentation, size grade (`Calibrado`) and defect tolerance (`Tolerancia_Defectos`). Further classes represent brine acidity, salinity and pH, and defect limits for olive types and quality grades.
+- **Olive type:** `Tipo_Aceituna` distinguishes green (`Aceituna_Verde`), changing-colour (`Aceituna_Color_Cambiante`) and black (`Aceituna_Negra`) olives by colour and harvest/maturation stage. Named cultivars, such as Arbequina, Gordal and Manzanilla, sit in a separate varieties branch (`Variedades_Aceituna`).
+- **Commercial category:** `Categoria_Producto` includes green, changing-colour and black commercial olives, with subclasses for preparations such as natural, lye-treated, split, scored, dry-salted and darkened olives. Here *natural* describes a preparation, not simply the fruit's colour.
+- **Presentation:** `Presentacion_Aceituna` records forms such as whole, pitted, stuffed, halved, quartered and sliced olives. For example, `Aceituna_Entera` has a stone, whereas `Aceituna_Deshuesada` excludes it.
+- **Processing and preservation:** `Tratamiento` includes alkaline-lye, brine, oxidation and cutting treatments; `Procesos_Conservacion` includes brining, fermentation, dry salt, refrigeration and heat preservation.
+- **Quality and products:** `Producto` is connected to a commercial category, presentation, size grade (`Calibrado`) and defect tolerance (`Tolerancia_Defectos`). Further classes represent brine acidity, salinity and pH, and defect limits for olive types and quality grades.
 - **Supply chain:** actors (`Actor`), operations (`Operacion`) and traceable units (`UnidadTrazable`) include producers, packers, distributors, batches and commercial or logistic units.
 
 ## Concept map
@@ -47,7 +51,6 @@ The ontology uses OWL class restrictions to define some types and grades. For ex
 
 ## Codex reference
 
-- [Codex Alimentarius: list of standards](https://www.fao.org/fao-who-codexalimentarius/codex-texts/list-standards/en/) — find **Standard for Table Olives (CXS 66-1981 / CODEX STAN 66-1981)** here, including any later revisions.
-- [Codex Standard for Table Olives — English PDF](https://www.fao.org/input/download/standards/167/CXS_066e.pdf) — a direct document link; if it has moved, use the standards list above.
+- [Codex Alimentarius: official text catalogue](https://codex.fao.org/codex-texts/find-a-codex-text) — search for **CXS 66-1981** or **Standard for Table Olives**, then choose a document language from the standard's record. The old direct PDF link has been removed because it no longer works.
 
 The ontology's provenance statement points to the Codex standard, but its class axioms are a particular formalisation and should not be mistaken for the full or necessarily current standard. Consult the latest Codex text for regulatory use.
